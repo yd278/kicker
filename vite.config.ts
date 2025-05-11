@@ -6,12 +6,12 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
-      registerType: 'autoUpdate', // 自动更新
+      registerType: 'autoUpdate', //
       manifest: {
-        name: 'My Vue PWA',
-        short_name: 'VuePWA',
-        theme_color: '#42b983',
+        name: '踢踢',
+        short_name: 'kicker',
         start_url: '/',
+        theme_color: '#1e1e2d', //TODO: select an color which matches both dark and light mode
         display: 'standalone',
         background_color: '#ffffff',
         icons: [
