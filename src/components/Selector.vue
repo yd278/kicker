@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import {ref}  from 'vue'
-import {NSelect} from 'naive-ui'
+import { ref } from 'vue'
+import { NSelect } from 'naive-ui'
 
 const selectedValue = ref(null)
 const options = [
@@ -10,12 +10,12 @@ const options = [
     },
     {
         label: "to be replaced",
-        value:1
+        value: 1
     },
     {
         label: "by activities from",
-        value:2
-    },{
+        value: 2
+    }, {
         label: "indexedDB",
         value: 3
     }
@@ -24,10 +24,5 @@ const options = [
 
 <template>
     <h1> 我要去做</h1>
-    <n-select
-      v-model:value="selectedValue"
-      filterable
-      placeholder="行动"
-      :options="options"
-    />
+    <n-select v-model:value="selectedValue" filterable placeholder="行动" :options="options" />
 </template>

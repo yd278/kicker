@@ -11,7 +11,7 @@ export default defineConfig({
         name: '踢踢',
         short_name: 'kicker',
         start_url: '/',
-        theme_color: '#1e1e2d', //TODO: select an color which matches both dark and light mode
+        theme_color: '#2c2c2c', //TODO: select an color which matches both dark and light mode
         display: 'standalone',
         background_color: '#ffffff',
         icons: [
@@ -29,5 +29,5 @@ export default defineConfig({
       },
     }),
   ],
-  
+
 })

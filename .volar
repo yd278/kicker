@@ -1,0 +1,7 @@
+
+{
+  "useWorkspaceTsdk": true,
+  "takeOverMode": {
+    "enabled": true
+  }
+}
